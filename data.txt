@@ -1,0 +1,9 @@
+1;COPY /chvk /nijesh DIR;ACK;0
+-1;READ /kk/kk.txt;STP;-1
+-1;READ /kk/kk.txt;STP;-1
+0;DELETE in1.txt;STP;-1
+0;READ /in1.txt;STP;-1
+0;DELETE /in1.txt;ACK;-1
+-1;DELETE /in1.txt;STP;-1
+0;DELETE /in2.txt;ACK;-1
+-1;DELETE /in2.txt;STP;-1
